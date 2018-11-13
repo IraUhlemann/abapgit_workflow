@@ -1,14 +1,21 @@
-class ZUI_CLASS2 definition
-  public
-  final
-  create public .
+CLASS zui_class2 DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
 
-public section.
-protected section.
-private section.
+  PUBLIC SECTION.
+  METHODS m1.
+
+  PROTECTED SECTION.
+  PRIVATE SECTION.
 ENDCLASS.
 
 
 
-CLASS ZUI_CLASS2 IMPLEMENTATION.
+CLASS zui_class2 IMPLEMENTATION.
+
+METHOD m1.
+ DATA: i type i.
+*       i += i.
+ENDMETHOD.
 ENDCLASS.
